@@ -1,0 +1,17 @@
+{
+  "manifest_version": 4,
+  "type": "extension",
+  "name": "QQNTBackground",
+  "slug": "qqnt_background",
+  "description": "更改QQ背景，未安装轻量工具箱样式可能出现问题",
+  "version": "0.1.2",
+  "authors": [
+    {
+      "name": "Anonymouse"
+    }
+  ],
+  "platform": ["win32", "linux", "darwin"],
+  "injects": {
+    "renderer": "./src/renderer.js"
+  }
+}
